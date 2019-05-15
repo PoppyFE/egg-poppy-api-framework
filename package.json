@@ -1,0 +1,87 @@
+{
+  "name": "egg-webApi-framework",
+  "version": "1.0.1",
+  "description": "",
+  "dependencies": {
+    "await-stream-ready": "^1.0.1",
+    "base64image-to-file": "^1.2.0",
+    "bignumber.js": "^8.0.2",
+    "conceal": "^1.0.0",
+    "crypto-js": "^3.1.9-1",
+    "egg": "2.5.0",
+    "egg-access-token": "^1.0.49",
+    "egg-action-logger": "^1.0.0",
+    "egg-auth-token": "^1.0.19",
+    "egg-command": "^2.5.6",
+    "egg-cors": "^2.0.0",
+    "egg-dev-token": "^1.0.0",
+    "egg-image-captcha": "^1.0.1",
+    "egg-limit-request": "^1.0.17",
+    "egg-normal-response": "^1.0.26",
+    "egg-onefile2": "^1.0.5",
+    "egg-otp-token": "^1.0.2",
+    "egg-permission": "^1.0.0",
+    "egg-redis": "^2.0.0",
+    "egg-user-agent": "^1.0.18",
+    "egg-validator2": "^1.0.10",
+    "js-yaml": "^3.11.0",
+    "koa-send": "^4.1.3",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.22.1",
+    "ms": "^2.1.1",
+    "msk": "^1.0.2",
+    "node-rsa": "^1.0.5",
+    "object-path": "^0.11.4",
+    "random-string": "^0.2.0",
+    "randomstring": "^1.1.5",
+    "stream-wormhole": "^1.0.3",
+    "svg-captcha": "^1.3.12",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.7.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.17.0",
+    "eslint": "^4.19.1",
+    "eslint-config-egg": "^7.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
+    "autod": "autod",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "egg",
+    "egg-framework"
+  ],
+  "author": "Alex.Zhang",
+  "files": [
+    "index.js",
+    "lib",
+    "app",
+    "config",
+    "app.js"
+  ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
+  "license": "MIT"
+}
