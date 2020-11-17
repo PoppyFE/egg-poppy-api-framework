@@ -1,6 +1,7 @@
 {
-  "name": "egg-poppy-api-framework",
+  "name": "@poppies/egg-poppy-api-framework",
   "version": "1.0.2",
+  "access": "public",
   "description": "",
   "dependencies": {
     "await-stream-ready": "^1.0.1",
