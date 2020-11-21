@@ -1,5 +1,5 @@
 {
-  "name": "@poppies/egg-poppy-api-framework",
+  "name": "egg-poppy-framework",
   "version": "1.0.4",
   "access": "public",
   "description": "",
@@ -18,7 +18,7 @@
     "egg-dev-token": "^1.0.0",
     "egg-image-captcha": "^1.0.1",
     "egg-limit-request": "^1.0.17",
-    "egg-normal-response": "^1.0.26",
+    "egg-normal-response": "^1.0.27",
     "egg-onefile2": "^1.0.5",
     "egg-otp-token": "^1.0.2",
     "egg-permission": "^1.0.0",
