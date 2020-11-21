@@ -1,5 +1,5 @@
 {
-  "name": "egg-poppy-common-framework",
+  "name": "@poppies/egg-poppy-api-framework",
   "version": "1.0.4",
   "access": "public",
   "description": "",
